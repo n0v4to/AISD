@@ -33,23 +33,23 @@ void delete_i_element(LinkedList<T>& list, int n) {
 
 
 
-    int main() {
-	    LinkedList<float> list;
-	    list.push_tail(17);
-	    list.push_tail(3);
-	    list.push_tail(10.2);
-	    list.push_tail(1);
-	    list.push_tail(-7);
-	    list.push_tail(-5.33);
-	    list.push_tail(-13);
-	    list.push_tail(4.25);
-	    list.push_tail(5);
-	    list.push_tail(4.5);
-	    cout << "List: ";
-	    list.printList();
-	    int i;
-	    cout << "Index of element (1<i<10)" << endl;
-	    cin >> i;
-        delete_i_element(list, i);
-        list.printList();
+int main() {
+    LinkedList<float> list;
+    list.push_tail(17);
+    list.push_tail(3);
+    list.push_tail(10.2);
+    list.push_tail(1);
+    list.push_tail(-7);
+    list.push_tail(-5.33);
+    list.push_tail(-13);
+    list.push_tail(4.25);
+    list.push_tail(5);
+    list.push_tail(4.5);
+    cout << "List: ";
+    list.printList();
+    int i;
+    cout << "Index of element (1<i<10)" << endl;
+    cin >> i;
+    delete_i_element(list, i);
+    list.printList();
 }

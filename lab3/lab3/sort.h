@@ -31,29 +31,8 @@ stats insertion_sort(vector<T>& data) {
 	return sorting_state;
 }
 
-//template<typename T>
-//int partition(vector<T>& data, int low, int high, stats& sorting_state) {
-//	T pivot = data[high];
-//	int ind = low;
-//
-//	for (size_t i = low; i < high; ++i) {
-//		sorting_state.comparison_count++;
-//		if (data[i] < pivot) {
-//			sorting_state.copy_count ++;
-//			swap(data[i], data[ind]);
-//			++ind;
-//		}
-//	}
-//
-//	swap(data[ind], data[high]);
-//	sorting_state.copy_count ++;
-//
-//	return ind;
-//}
-
 template<typename T>
 int partition(vector<T>& data, int low, int high, stats& sorting_state) {
-	// Выбор опорного элемента случайным образом
 	int pivotIndex = low + rand() % (high - low + 1);
 	T pivot = data[pivotIndex];
 	swap(data[pivotIndex], data[high]);

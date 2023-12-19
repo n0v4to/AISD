@@ -14,7 +14,7 @@ int main() {
 	int min = 1;
 	int max = 50000;
 
-	/*cout << "Statistics of the reverse array for comb_sort" << endl;
+	cout << "Statistics of the reverse array for comb_sort" << endl;
 	get_stats_for_sort(lens_arr, generate_reverse_sort_array, comb_sort);    
 	cout << "Statistics of the random array for comb_sort" << endl;
 	get_stats_for_random(min, max, lens_arr, comb_sort);    
@@ -27,7 +27,7 @@ int main() {
 	cout << "Statistics of the reverse array for insertion_sort" << endl;
 	get_stats_for_sort(lens_arr, generate_reverse_sort_array, insertion_sort);   
 	cout << "Statistics of the random array for insertion_sort" << endl;
-	get_stats_for_random(min, max, lens_arr, insertion_sort);  */
+	get_stats_for_random(min, max, lens_arr, insertion_sort);
 
 
 	cout << "Statistics of the sort array for quick_sort" << endl;

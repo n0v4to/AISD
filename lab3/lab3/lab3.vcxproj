@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="analysis.h" />
     <ClInclude Include="sort.h" />
   </ItemGroup>
   <ItemGroup>
